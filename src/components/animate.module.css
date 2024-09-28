@@ -1,0 +1,212 @@
+.animateOff {
+  display: none;
+}
+
+.animationContainer{
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.animationContainerOff{
+    display: none;
+}
+.first {
+  border-radius: 50px;
+  margin: 0;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  animation: lines 8s infinite;
+  position: relative;
+}
+@keyframes lines {
+  0% {
+    background-color: white;
+    box-shadow: 0 0 10px;
+    left: 0;
+    top: 0;
+  }
+  15% {
+    background-color: maroon;
+    left: 20px;
+    top: 20px;
+    box-shadow: 0 2px maroon;
+  }
+  30% {
+    background-color: aliceblue;
+    left: 40px;
+    top: 10px;
+    box-shadow: 0 -3px aliceblue;
+  }
+
+  45% {
+    background-color: blue;
+    left: 31px;
+    left: 11px;
+    box-shadow: 0 -3px blue;
+  }
+
+  60% {
+    background-color: green;
+    left: 20px;
+    top: 50px;
+    box-shadow: 3px 0 green;
+  }
+
+  75% {
+    background-color: blueviolet;
+    left: 90px;
+    top: 10px;
+    box-shadow: -3px 0 blueviolet;
+  }
+
+  90% {
+    background-color: red;
+    left: 10px;
+    top: 30px;
+    box-shadow: -3px -3px red;
+  }
+  100% {
+    background-color: white;
+    left: 0;
+    top: 0;
+  }
+}
+.second {
+  border-radius: 50px;
+  animation: two 3s infinite;
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  background-color: red;
+  position: relative;
+}
+@keyframes two {
+  0% {
+    background-color: white;
+    right: 0;
+    top: 0;
+  }
+  15% {
+    background-color: rgb(130, 238, 148);
+    right: 10px;
+    top: 10px;
+  }
+  30% {
+    background-color: blue;
+    right: 20px;
+    top: 10px;
+  }
+  45% {
+    background-color: darkblue;
+    right: 40px;
+    top: 40px;
+  }
+  60% {
+    background-color: black;
+    right: 60px;
+    top: 10px;
+  }
+  75% {
+    background-color: yellow;
+    right: 30px;
+    top: 50px;
+  }
+  100% {
+    background-color: white;
+    right: 0;
+    top: 0;
+  }
+}
+.third {
+  border-radius: 50px;
+  animation: third 10s infinite;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  position: relative;
+  margin: 0;
+}
+@keyframes third {
+  0% {
+    background-color: white;
+    left: 0;
+    bottom: 0;
+  }
+  15% {
+    background-color: violet;
+    left: 10px;
+    top: 0;
+  }
+  30% {
+    background-color: blue;
+    left: 15px;
+    top: 0;
+  }
+  45% {
+    background-color: darkblue;
+    left: 0;
+    top: 10px;
+  }
+  60% {
+    background-color: black;
+    left: 50px;
+    top: 10px;
+  }
+  75% {
+    background-color: yellow;
+    left: 30px;
+    top: 20px;
+  }
+  100% {
+    background-color: white;
+    left: 0;
+    top: 0;
+  }
+}
+.fourth {
+  border-radius: 50px;
+  animation: fourth 5s infinite;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  position: relative;
+  margin-top: -10px;
+  margin: 0;
+}
+@keyframes fourth {
+  0% {
+    background-color: white;
+    left: 0;
+    top: 0;
+  }
+  15% {
+    background-color: green;
+    left: 10px;
+    top: 50px;
+  }
+  30% {
+    background-color: pink;
+    left: 20px;
+    top: 0;
+  }
+  45% {
+    background-color: darkseagreen;
+    left: 4px;
+    top: 10px;
+  }
+  60% {
+    background-color: rgb(0, 0, 0);
+    left: 20px;
+    top: 10px;
+  }
+  75% {
+    background-color: yellow;
+    left: 30px;
+    top: 40px;
+  }
+  100% {
+    background-color: rgb(255, 255, 255);
+    left: 0;
+    top: 0;
+  }
+}

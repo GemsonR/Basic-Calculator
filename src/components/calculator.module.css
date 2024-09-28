@@ -1,0 +1,87 @@
+.calculator {
+  width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: #0b192c;
+  border-radius: 6px;
+  transition: 0.15s;
+}
+.calculatorOn {
+  animation: animate 4s infinite;
+}
+
+@keyframes animate {
+  0% {
+    box-shadow: 0 0 10px red;
+    left: 200px;
+  }
+  25% {
+    box-shadow: 0 0 10px yellow;
+    top: 200px;
+  }
+  50% {
+    box-shadow: 0 0 10px blue;
+    right: 200px;
+  }
+  75% {
+    box-shadow: 0 0 10px green;
+    bottom: 200px;
+  }
+  100% {
+    box-shadow: 0 0 10px red;
+  }
+}
+.display {
+  height: 40px;
+  margin: 20px;
+  border-radius: 5px;
+  grid-column: span 4;
+  margin-bottom: 20px;
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  text-align: end;
+  font-weight: bold;
+  transition: 0.15s;
+}
+
+.input {
+  font-family: "play";
+  width: 100%;
+  height: 100%;
+  text-align: end;
+  font-size: 30px;
+  margin: 0;
+  border-radius: 4px;
+  outline: none;
+}
+.inputOff {
+  background-color: grey;
+}
+
+.onOffContainer {
+  border-radius: 50px;
+  display: flex;
+  width: 30px;
+  height: 20px;
+  background-color: grey;
+  margin-bottom: 10px;
+  transition: 0.15s;
+}
+.on {
+  justify-content: end;
+}
+.onOffContainer button {
+  padding: 0 8px;
+  border: 1px solid black;
+  border-radius: 50px;
+  box-shadow: 0 2px 2px rgba(0, 0, bl0ue, 0.1);
+  cursor: pointer;
+}
+
+.btn {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
